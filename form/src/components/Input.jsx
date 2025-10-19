@@ -12,7 +12,7 @@ export default function Input({
         {label}
       </label>
       <input
-        className="p-3 border border-gray-500 rounded-[6px] text-[18px] focus:border-indigo-500 outline-0"
+        className="p-2 border border-gray-500 rounded-[6px] text-[18px] focus:border-indigo-500 outline-0"
         id={name}
         type={type}
         {...register(name, rules)}

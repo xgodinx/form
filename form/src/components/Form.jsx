@@ -1,6 +1,6 @@
 import { useForm } from "react-hook-form";
 import Input from "./Input";
-
+import Button from "@mui/material/Button";
 export default function Form() {
   const {
     register,
@@ -56,12 +56,9 @@ export default function Form() {
           error={errors.password}
         />
 
-        <button
-          type="submit"
-          className="w-full bg-blue-600 p-2.5 rounded-2xl text-white text-4 cursor-pointer hover:bg-blue-950 transition-colors duration-300"
-        >
-          Send
-        </button>
+        <Button className="w-full h-[45px]" variant="contained">
+          Submit
+        </Button>
       </form>
     </div>
   );
