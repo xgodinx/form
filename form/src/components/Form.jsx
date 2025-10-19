@@ -56,7 +56,7 @@ export default function Form() {
           error={errors.password}
         />
 
-        <Button className="w-full h-[45px]" variant="contained">
+        <Button type="submit" className="w-full h-[45px]" variant="contained">
           Submit
         </Button>
       </form>
