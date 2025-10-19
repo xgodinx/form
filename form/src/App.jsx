@@ -1,10 +1,10 @@
-import Form from "./components/Form";
-
+import Header from "./components/Header";
+import { Outlet } from "react-router";
 function App() {
   return (
-    <div className="app-container">
-      <h1>Registration</h1>
-      <Form />
+    <div>
+      <Header></Header>
+      <Outlet></Outlet>
     </div>
   );
 }
