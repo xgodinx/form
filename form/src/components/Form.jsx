@@ -16,7 +16,7 @@ export default function Form() {
   };
 
   return (
-    <div className="w-[400px] mx-auto p-[30px] rounded-[12px] border m-2.5">
+    <div className="max-w-[400px] w-full mx-auto p-[30px] rounded-[12px] border m-2.5">
       <form className="" onSubmit={handleSubmit(onSubmit)}>
         <h1 className="font-bold text-3xl text-center mb-3">Registration</h1>
         <Input
